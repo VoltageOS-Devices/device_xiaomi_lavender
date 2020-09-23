@@ -2,5 +2,8 @@
 ro.charger.disable_init_blank=true
 ro.charger.enable_suspend=true
 
+# BPF
+ro.kernel.ebpf.supported=true
+
 # IORap
 persist.device_config.runtime_native_boot.iorap_readahead_enable=true
