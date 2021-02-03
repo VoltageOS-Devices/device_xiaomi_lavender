@@ -3,4 +3,8 @@ type public_adsprpcd_file, file_type;
 type sysfs_fingerprint, fs_type, sysfs_type;
 type sysfs_touchpanel, fs_type, sysfs_type;
 type thermal_data_file, file_type, data_file_type;
+# FPS Info
+type sysfs_fps, sysfs_type, fs_type;
+# Kcal
+type kcal_dev, sysfs_type, fs_type;
 
