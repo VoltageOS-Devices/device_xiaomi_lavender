@@ -12,4 +12,5 @@ type sysfs_micgain, sysfs_type, fs_type;
 type sysfs_earpiecegain, sysfs_type, fs_type;
 # Kcal
 type kcal_dev, sysfs_type, fs_type;
-
+# SystemInfo
+type sysfs_device_info, sysfs_type, fs_type;
