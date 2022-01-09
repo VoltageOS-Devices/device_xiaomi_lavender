@@ -7,7 +7,7 @@
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-arrow
+    $(LOCAL_PATH)/overlay-voltage
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
@@ -128,9 +128,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@1.0.vendor
 
 # Camera
-PRODUCT_PACKAGES += \
-    Snap
-
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
     android.hardware.camera.device@3.5:64 \
