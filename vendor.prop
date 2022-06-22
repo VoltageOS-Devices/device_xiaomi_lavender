@@ -157,6 +157,9 @@ ro.vendor.sensors.pmd=true
 ro.vendor.sensors.sta_detect=true
 ro.vendor.sensors.mot_detect=true
 
+# cherrypick form f7a  for video call
+persist.vendor.qti.telephony.vt_cam_interface=2
+
 # SoC
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=SDM660
