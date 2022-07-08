@@ -86,6 +86,23 @@ vendor.qcom.bluetooth.soc=cherokee
 persist.vendor.camera.preview.ubwc=0
 vendor.video.disable.ubwc=1
 vidc.enc.dcvs.extra-buff-count=2
+persist.vendor.camera.preview.ubwc=0
+persist.vendor.camera.isp.clock.optmz=0
+persist.vendor.camera.isp.turbo=1
+persist.vendor.camera.imglib.usefdlite=1
+persist.vendor.camera.expose.aux=1
+persist.vendor.camera.HAL3.enabled=1
+persist.vendor.camera.manufacturer=Xiaomi
+persist.vendor.camera.model=Redmi Note 7
+persist.vendor.camera.awb.sync=2
+
+# Dalvik
+dalvik.vm.heapgrowthlimit=256m
+dalvik.vm.heapstartsize=8m
+dalvik.vm.heapsize=512m
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.heapminfree=512k
+dalvik.vm.heapmaxfree=8m
 
 # Display
 debug.sf.early_app_phase_offset_ns=1500000
@@ -163,6 +180,9 @@ persist.vendor.qti.telephony.vt_cam_interface=2
 # SoC
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=SDM660
+
+# SurfaceFlinger
+ro.surface_flinger.has_wide_color_display=true
 
 # Time
 persist.vendor.delta_time.enable=true
