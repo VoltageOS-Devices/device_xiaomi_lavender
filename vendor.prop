@@ -123,6 +123,12 @@ vendor.display.enable_default_color_mode=1
 vendor.gralloc.enable_fb_ubwc=1
 ro.hardware.egl=adreno
 ro.hardware.vulkan=sdm660
+sys.boe_td4320_length=42
+sys.boe_td4320_offset=-9
+sys.shenchao_nt36672a_length=38
+sys.shenchao_nt36672a_offset=-10
+sys.tianma_nt36672a_length=42
+sys.tianma_nt36672a_offset=6
 
 # DRM Service
 drm.service.enabled=true
@@ -155,6 +161,7 @@ persist.radio.multisim.config=dsds
 persist.vendor.data.iwlan.enable=true
 persist.vendor.data.mode=concurrent
 persist.vendor.qti.telephony.vt_cam_interface=2
+persist.radio.VT_CAM_INTERFACE=2
 persist.vendor.radio.apm_sim_not_pwdn=1
 persist.vendor.radio.atfwd.start=true
 persist.vendor.radio.custom_ecc=1
@@ -174,8 +181,8 @@ ro.vendor.sensors.pmd=true
 ro.vendor.sensors.sta_detect=true
 ro.vendor.sensors.mot_detect=true
 
-# cherrypick form f7a  for video call
-persist.vendor.qti.telephony.vt_cam_interface=2
+# QTI
+ro.vendor.qti.sys.fw.bservice_enable=true
 
 # SoC
 ro.soc.manufacturer=Qualcomm
