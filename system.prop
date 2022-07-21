@@ -6,7 +6,13 @@ persist.vendor.cne.feature=1
 
 # Display
 debug.sf.disable_client_composition_cache=1
- 
+
+# IORap app launch prefetching using Perfetto traces and madvise
+ro.iorapd.enable=false 
+iorapd.perfetto.enable=false 
+iorapd.readahead.enable=false 
+persist.device_config.runtime_native_boot.iorap_readahead_enable=false
+
 # Netflix
 ro.netflix.bsp_rev=Q660-13149-1
 
