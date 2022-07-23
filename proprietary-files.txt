@@ -1355,14 +1355,14 @@ vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so|0c4bb0c8ba1cbf357bb0b5117e93db
 vendor/lib/libqti-perfd-client.so|08b0cd20dbc79645ee73ea4fdc5221d41d09588a
 vendor/lib64/libqti-perfd-client.so|cd3def30b6d444430ea8cea8956623d9d165eb7a
 
-# Peripheral manager - from jasmine
+# Peripheral manager - from LAVENDER_V12.5.7.0.QFGCNXM
 vendor/bin/pm-proxy|bc4e972e3fe595b973197efe5114da8ff4339a59
 vendor/bin/pm-service|b0f77edfe04a3cc6284738196c0044e676d5eeb3
 vendor/lib64/libperipheral_client.so|a0dd574c8af3135adae10ef49065fa765906db7a
 
-# Postprocessing - from jasmine
+# Postprocessing - from LAVENDER_V12.5.7.0.QFGCNXM
 vendor/bin/hw/vendor.display.color@1.0-service|b091c0d0f898959afedf8a3f83b5e97205fdfbc8
-vendor/bin/mm-pp-dpps|87650deb0e6df4afae33020b23af0d1cf33ec51c
+vendor/bin/mm-pp-dpps|e79d73b263b805f67500ee7d6a1b9edaa53e66cd
 vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
 vendor/lib64/libdisp-aba.so|fcb06e36e31d741c92d189ad95bc2f69bbf1e17b
 vendor/lib64/vendor.display.color@1.0.so|3939e4d1ab4f74e6bbd04524a9e6211ade9c5d0b
@@ -1566,11 +1566,11 @@ vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|9cf774301dfb59173cc2a6871ff851ea6b546f39
 vendor/lib64/vendor.qti.hardware.soter@1.0.so|5815859dc07d3181901596d06612b379e86fe6fd
 
-# Thermal - from lavender V11.0.5.0.PFGCNXM
+# Thermal - from LAVENDER_V12.5.7.0.QFGCNXM
 vendor/bin/thermal-engine|8b77c4541d74abb4d17e5b46dbfcf46ea7290283
 vendor/etc/thermal-engine-camera.conf|db9829a655ca0c3013448e6a4aee3fcce9f90ca2
-vendor/etc/thermal-engine-map.conf|7c86d130de03ee8a0ebebc2e8f2eeda0e574cdf6
-vendor/etc/thermal-engine-normal.conf|9c875e1102da2503db5bc295327c28a4b6c6452e
+vendor/etc/thermal-engine-map.conf|9e87f1d426c0fb9151f72f55c8455e92b6724c55
+vendor/etc/thermal-engine-normal.conf|f44b43de8ec730aed99e289be99c7fc814da5e94
 vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
 -vendor/lib/libthermalclient.so|c3aecc7610e8f5775a6f6af2ff7790bef74380a1
 -vendor/lib64/libthermalclient.so|84072e150722cc668320f07a75cb8695ce1a79b0
@@ -1580,9 +1580,9 @@ vendor/lib64/libthermalioctl.so|d7055e46d8ba5e83b213c5f38d936f3ea71003c2
 # Thermal - from jasmine
 vendor/etc/thermal-engine-youtube.conf|d7f04f645be71847281ce1e4a2caa3bba153fcaa
 
-# Time services - from jasmine
--vendor/app/TimeService/TimeService.apk|27f9b81621c446baa8c37581d9bfbca2fd67b496
-vendor/bin/time_daemon|d647fa02dfb28b6cb981c4e77daee75a67406351
+# Time services - from LAVENDER_V12.5.7.0.QFGCNXM
+-vendor/app/TimeService/TimeService.apk|6e65b04f559b6e5c392b9cd533ba437167db9036
+vendor/bin/time_daemon|4379f604fcb41e9b096203b1d888cac478a3aafe
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|c8e0bbc9c6b7b5beddba43bc4125a9eaeba7c79f
 
