@@ -1,45 +1,41 @@
-# jasmine package version: V11.0.28.0.QDIMIXM, unless stated otherwise
+# All blobs from lavender-user 10 QKQ1.190910.002 V12.5.3.0.QFGMIXM release-keys, unless pinned
 
-# ADSP - from jasmine
-vendor/bin/adsprpcd|0cdd541ee0a365c5dccd0613e495611f4d0f6607
-vendor/bin/cdsprpcd|c9fc5873c205e1ebb844d18bc10f89dd428a01ee
-vendor/lib/libadsp_default_listener.so|85bdbaf59256e3a01e3d1bf1f5ac753eea4f935b
-vendor/lib/libadsp_hvx_callback_skel.so|17e18628d5f06f5ad46b9577baac0d3571b42be1
-vendor/lib/libadsp_hvx_stub.so|d3f2bfdf3f6bd4911e5015a022a098582addcf6f
-vendor/lib/libadsprpc.so|35bf7c53dc7149b39126638c5c1bac3b08e262be
-vendor/lib/libcdsp_default_listener.so|6347d41d3c3704a04ae0f8e816f071057c483163
-vendor/lib/libcdsprpc.so|2774f0faf3728faf425fdeb81b9820a3c231a5ba
-vendor/lib/libfastcvadsp_stub.so|43740cca4f7549c86e4b2ab1daf4d703d9a9b258
-vendor/lib/libfastcvopt.so|77789b2b6e978bcc2ee7e848d6163fc31d6b5393
-vendor/lib/libmdsprpc.so|caae31754dee7a45267ae3912685773046ab6b47
-vendor/lib/libsdsprpc.so|b78c12ebe73d344af786dd39f1313ec88668aacc
-vendor/lib/libsysmon_cdsp_skel.so|0da55092206d94a43a82d5a416969cbfd208acf2
-vendor/lib64/libadsp_default_listener.so|abace257c0ae59ddc693f1e42d16670312673873
-vendor/lib64/libadsprpc.so|02d0684cba8bd52d2a291f85afae9ce343c94bd4
-vendor/lib64/libcdsp_default_listener.so|ebde03266606d634172d41bbc97ba9ebc5606423
-vendor/lib64/libcdsprpc.so|6636d9b8e1c3b80bae94cf1728c5168ef77cca5f
-vendor/lib64/libfastcvadsp_stub.so|ef3fd1a7d1217ad9bfff9cff0aa52db36eb73143
-vendor/lib64/libfastcvopt.so|9f95397d7e1b171f9b00323ed7acc17341200e01
-vendor/lib64/libmdsprpc.so|7aca0cc4524687c48df9e2247a6c59d0be9581bc
-vendor/lib64/libsdsprpc.so|9c3ac49b1a3c7d383c64f7fb554b1c00e2963527
-vendor/lib64/libsysmon_cdsp_skel.so|a76815923b46dbc41ba1a6b0f4942b8da8e52ce0
+# ADSP
+vendor/bin/adsprpcd
+vendor/lib/libadsp_default_listener.so
+vendor/lib/libadsp_hvx_callback_skel.so
+vendor/lib/libadsp_hvx_stub.so
+vendor/lib/libadsprpc.so
+vendor/lib/libfastcvadsp_stub.so
+vendor/lib/libfastcvopt.so
+vendor/lib/libmdsprpc.so
+vendor/lib/libsdsprpc.so
+vendor/lib64/libadsp_default_listener.so
+vendor/lib64/libadsprpc.so
+vendor/lib64/libfastcvadsp_stub.so
+vendor/lib64/libfastcvopt.so
+vendor/lib64/libmdsprpc.so
+vendor/lib64/libsdsprpc.so
 
-# ADSP modules - from jasmine
-vendor/lib/rfsa/adsp/dirac_resource.dar|7728d5b2ee2927a01df5bd6d7edae3736186c844
-vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so|f4d8675a46c5e52add8f8e90e35b29cd33ac582b
-vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_800h_skel.so|c240d45c3a5fc37b964c4adab06f4cb0bfda62f5
-vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so|b9f68e320d24e9c51871a2056e1f47239bd1cb40
-vendor/lib/rfsa/adsp/libadsp_fd_skel.so|677d2932dac248049f031fc5893163e22b49439a
-vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so|26fb64a92d48e801a31a867976d325efa366a255
-vendor/lib/rfsa/adsp/libadsp_hvx_skel.so|05776246445316aea822eaa9cb6ae7a47b23c9aa
-vendor/lib/rfsa/adsp/libapps_mem_heap.so|fd362c6b0e30f62cc3fc4566855f46706d2c3c50
-vendor/lib/rfsa/adsp/libdirac-capiv2.so|e56031dfaee094d5267e3cc16625cfceaa07cc27
-vendor/lib/rfsa/adsp/libdspCV_skel.so|a788855fe98d5f6ea73d2693c983efb29165eae1
-vendor/lib/rfsa/adsp/libfastcvadsp.so|603711dc1af1f1952d8978a5b494b1541b24c54c
-vendor/lib/rfsa/adsp/libfastcvadsp_skel.so|a06a3f52e89d219d2da0c7205e714cd7429b267c
-vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so|99752b14bc669589f598b2c555af96834147e41e
-vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|d2174a2a4a680e93ee4262b5e6d99fd3c398620c
-vendor/lib/rfsa/adsp/libscveT2T_skel.so|487f830aca26c85ef79c8b599b2f03668ab732b5
+# ADSP-Modules
+vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
+vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
+vendor/lib/rfsa/adsp/dirac_resource.dar
+vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so
+vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_800h_skel.so
+vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so
+vendor/lib/rfsa/adsp/libadsp_fd_skel.so
+vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so
+vendor/lib/rfsa/adsp/libadsp_hvx_skel.so
+vendor/lib/rfsa/adsp/libapps_mem_heap.so
+vendor/lib/rfsa/adsp/libdirac-capiv2.so
+vendor/lib/rfsa/adsp/libdspCV_skel.so
+vendor/lib/rfsa/adsp/libfastcvadsp.so
+vendor/lib/rfsa/adsp/libfastcvadsp_skel.so
+vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
+vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
+vendor/lib/rfsa/adsp/libscveT2T_skel.so
+vendor/lib/rfsa/adsp/nuance.scd
 
 # Alarm - from jasmine
 -product/app/PowerOffAlarm/PowerOffAlarm.apk|46387fe02067df3c4c09ec49fff7737473ea1145
@@ -66,18 +62,35 @@ vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
-# Audio - from jasmine
-vendor/lib/soundfx/libasphere.so|b1b26f99d9fbfe75f109349de5505ca39ccd4c8c
-vendor/lib/soundfx/libqcbassboost.so|73339450a42b598a3c13e67b3d4a2266d986fea2
-vendor/lib/soundfx/libqcreverb.so|eb437cd5e264b1adb4546c6a5617c5da17be5839
-vendor/lib/soundfx/libqcvirt.so|ee9eaa81bb24ac0379e06b44ef257967a4d32614
-vendor/lib/libacdb-fts.so|7e542fe676bdeaf0347dada88683a67cb861d96d
-vendor/lib/libacdbloader.so|ce2494e403e79552793d65f344ce9f79b52ba51a
-vendor/lib/libacdbrtac.so|bacaa968f7da0ed014e6594b928823f0d08a06e6
-vendor/lib/libadiertac.so|ebdd9b6c4e64b38ef39401b1a1e03696583440dc
-vendor/lib/libadm.so|d7c7d22c4fe53312e1e49fbffd587b25fdf0ac89
-vendor/lib/libaudcal.so|f935b8c33972b8cee40f760478f1b64a54705683
-vendor/lib/libqtigef.so|e0c548247e923f1e972e7765a678566dd874afb7
+# Audio
+vendor/bin/audioflacapp
+vendor/etc/audio.scd
+vendor/etc/diracvdd.bin
+vendor/etc/speaker.ftcfg
+vendor/lib/soundfx/libasphere.so
+vendor/lib/soundfx/libaudiopreprocessing.so
+vendor/lib/soundfx/libqcbassboost.so
+vendor/lib/soundfx/libqcreverb.so
+vendor/lib/soundfx/libqcvirt.so
+vendor/lib/libacdb-fts.so
+vendor/lib/libacdbloader.so
+vendor/lib/libacdbrtac.so
+vendor/lib/libadiertac.so
+vendor/lib/libadm.so
+vendor/lib/libaudcal.so
+vendor/lib/libaudio_log_utils.so
+vendor/lib/libaudioalsa.so
+vendor/lib/libaudioconfigstore.so
+vendor/lib/libaudioparsers.so
+vendor/lib/libdrc.so
+vendor/lib/libqtigef.so
+vendor/lib/libsurround_3mic_proc.so
+vendor/lib/libtinycompress.so
+
+# Audio-Firmware
+vendor/firmware/dbmd4_va_fw.bin
+vendor/firmware/tfa98xx.cnt
+vendor/firmware/voice_amodel.bin
 
 # Bluetooth - from jasmine
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|57a0a575a2b1b96176fda1bcb84ea8371c4070d1
@@ -92,6 +105,17 @@ vendor/lib64/vendor.qti.hardware.fm@1.0.so|073cace3aa8d0ffa025d9df67c45f8a907109
 # Bluetooth (aptX) - from crosshatch-user 10 QP1A.190711.020 5800535 release-keys
 product/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
+
+# CDSP
+vendor/bin/cdsprpcd
+vendor/lib/libcdsp_default_listener.so
+vendor/lib/libcdsprpc.so
+vendor/lib/libfastrpc_utf_stub.so
+vendor/lib/libsysmon_cdsp_skel.so
+vendor/lib64/libcdsp_default_listener.so
+vendor/lib64/libcdsprpc.so
+vendor/lib64/libfastrpc_utf_stub.so
+vendor/lib64/libsysmon_cdsp_skel.so
 
 # Camera - from lavender V10.3.6.0.PFGMIXM
 vendor/lib/hw/camera.sdm660.so|50e671432994ec9085810e5fa9c9c6619262bc19
@@ -1033,8 +1057,8 @@ vendor/lib/libmmcamera_tintless_bg_pca_algo.so|8d0742522e0af649ee05fb85fa1a204ac
 vendor/lib/libmmcamera_tuning.so|28364a5125194034584cb44e053272a9d70fa5b5
 vendor/lib/libmmcamera_tuning_lookup.so|e00c7abb7b72ceff77fbd73d7b38f3fa8fdb31ca
 
-# Charger - from jasmine
-vendor/bin/hvdcp_opti|120837d6d44abfd86515731dd26183be9cdd5596
+# Charger
+vendor/bin/hvdcp_opti
 
 # CNE - from jasmine
 etc/cne/Nexus/ATT/ATT_profiles.xml|33e568627fd3f94dc45bca1c01ad10e6d8fb5b52
@@ -1098,11 +1122,10 @@ vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.spi.sdm660.so|d
 
 # DIRAC - from Wayne
 vendor/etc/diracmobile.config|88fa19095df9e256f0af510df266f749bf60e258
-vendor/etc/diracvdd.bin|f9b07ace60490649c44411504909c7bf8bc73d59
 vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
 vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
 
-# Display
+# Display-calibration
 vendor/etc/qdcm_calib_data_boe_td4320_fhdplus_video_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_shenchao_nt36672a_fhdplus_video_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_tianma_nt36672a_fhdplus_video_mode_dsi_panel.xml
@@ -1142,6 +1165,12 @@ vendor/lib64/librpmb.so|a6add4226a289242eb2e1ccef23a94d100a94064
 vendor/lib64/libsdedrm.so|2add69c575f5745d0db2bbe8dfb7f75f9dc03ce6
 vendor/lib64/libsecureui_svcsock.so|889d4a12c5dee56ed4b10548abbd7b9033cbdad2
 vendor/lib64/libssd.so|a64337d8044607b81adcf7e8c5760cf8cdcf82b4
+
+# Fido
+vendor/bin/fidoca
+vendor/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-service.rc
+vendor/lib64/libmfido.so
+vendor/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so
 
 # Fingerprint firmware
 vendor/firmware/fpctzappfingerprint.b00
@@ -1317,46 +1346,50 @@ vendor/lib/libgcs-osal.so|dfae7d1bb15b7bd19fef7427f0a6f6df28d5d30a
 vendor/lib/libgcs.so|91e2a7e52bbc076eb3761586bcaf623160612a79
 vendor/lib/libsmwrapper.so|d28c31e4dd25de2eb7d1face701b0f6acf1b1d0e
 
-# Media - from jasmine
-vendor/lib/libAlacSwDec.so|bca4278cb74a63772a0fc369480b5d9814063d9b
-vendor/lib/libApeSwDec.so|d175422c4b2e691dd5f2a3fe0c7dbc978084e838
-vendor/lib/libFlacSwDec.so|05013a9ca75ffe5ca7ec25747679b0addabdb0c1
-vendor/lib/libI420colorconvert.so|3398b258f5454361e15c063798fe03974dc1cfd4
-vendor/lib/libOmxAacDec.so|2693bce6d624a008b7d4417f625ee363808762c1
-vendor/lib/libOmxAlacDec.so|a1562f6e7319339f1a3c2164d7929a58d14d355c
-vendor/lib/libOmxAlacDecSw.so|195745033c16f74745ef7fb73834a1781618ff32
-vendor/lib/libOmxAmrDec.so|ffd66ca58bb0f083b8ba19f9114db08d4b3d38c1
-vendor/lib/libOmxAmrwbplusDec.so|0ad2fbab0051880fc4cfaa75685100a470af1467
-vendor/lib/libOmxApeDec.so|34f86d1617f9683a290642bd2452319dad50d431
-vendor/lib/libOmxApeDecSw.so|50681d86957d6a6adc71967e67b24e2114fbf1ab
-vendor/lib/libOmxDsdDec.so|d81e103794648cf58a363cacbfa21a2ab96bda7b
-vendor/lib/libOmxEvrcDec.so|e16f0f94e91742f1aef16aad6f2438a12611a6b3
-vendor/lib/libOmxG711Dec.so|fc022c86a72ea2d6e25bb1565c6f93ee63498fa1
-vendor/lib/libOmxQcelp13Dec.so|2674324f46dfb77d2e586a04d380d6cea188e79e
-vendor/lib/libOmxVideoDSMode.so|a5a6bd8e1fe4ee4ceb11ba77fae441435a4ae207
-vendor/lib/libOmxWmaDec.so|469d6be621fab38ece0921c3f08e1638556cef0f
-vendor/lib/libdsd2pcm.so|df3b8b4f7c209f061fd6c48bf833cb2ad3342791
-vendor/lib/libgpustats.so|51338b96a0a61b1062a11723c86faba3c1f1d58e
-vendor/lib/libmm-color-convertor.so|43d7d4ac5587ecf5a7e8428e0437f45254acd767
-vendor/lib/libvqzip.so|d037d6e54f6cff1755acb5e1f04a43536bcb8acf
-vendor/lib64/libgpustats.so|b7f9e1ee3f0d86e87d96db55404f3507db8cac6f
+# Media
+vendor/lib/libAlacSwDec.so
+vendor/lib/libApeSwDec.so
+vendor/lib/libFlacSwDec.so
+vendor/lib/libI420colorconvert.so
+vendor/lib/libOmxAacDec.so
+vendor/lib/libOmxAlacDec.so
+vendor/lib/libOmxAlacDecSw.so
+vendor/lib/libOmxAmrDec.so
+vendor/lib/libOmxAmrwbplusDec.so
+vendor/lib/libOmxApeDec.so
+vendor/lib/libOmxApeDecSw.so
+vendor/lib/libOmxDsdDec.so
+vendor/lib/libOmxEvrcDec.so
+vendor/lib/libOmxG711Dec.so
+vendor/lib/libOmxQcelp13Dec.so
+vendor/lib/libOmxVideoDSMode.so
+vendor/lib/libOmxWmaDec.so
+vendor/lib/libdsd2pcm.so
+vendor/lib/libgpustats.so
+vendor/lib/libmm-color-convertor.so
+vendor/lib/libmmosal_proprietary.so
+vendor/lib/libmulawdec.so
+vendor/lib/libstagefright_soft_mpeg2dec.so
+vendor/lib/libstagefright_soft_qtiflacdec.so
+vendor/lib/libvqzip.so
+vendor/lib64/libgpustats.so
 
-# Mlipay - from wayne V11.0.3.0.PDCCNXM
-vendor/bin/mlipayd@1.1|4c30cfd1b32f99ff3043eadca8e7a4b7b9a00c79
-vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc|b5ab5bcd031fe4d9781b5911c0595eaeac8b80ea
-vendor/lib64/libmlipay.so|c988ff04fcd90621cf46d219bdbc7eef341d1ce6
-vendor/lib64/libmlipay@1.1.so|7d07b19faa36c62babf39a41b2baf8de370d706c
-vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so|2c05d2902c757410aec30c6a5d0bf77b016583fa
-vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so|0c4bb0c8ba1cbf357bb0b5117e93db0382ffcf49
+# Mlipay
+vendor/bin/mlipayd@1.1
+vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc
+vendor/lib64/libmlipay.so
+vendor/lib64/libmlipay@1.1.so
+vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
+vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
 
 # Perf - from taimen RP1A.201005.004
 vendor/lib/libqti-perfd-client.so|08b0cd20dbc79645ee73ea4fdc5221d41d09588a
 vendor/lib64/libqti-perfd-client.so|cd3def30b6d444430ea8cea8956623d9d165eb7a
 
-# Peripheral manager - from jasmine
-vendor/bin/pm-proxy|bc4e972e3fe595b973197efe5114da8ff4339a59
-vendor/bin/pm-service|b0f77edfe04a3cc6284738196c0044e676d5eeb3
-vendor/lib64/libperipheral_client.so|a0dd574c8af3135adae10ef49065fa765906db7a
+# Peripheral
+vendor/bin/pm-proxy
+vendor/bin/pm-service
+vendor/lib64/libperipheral_client.so
 
 # Postprocessing - from jasmine
 vendor/bin/hw/vendor.display.color@1.0-service|b091c0d0f898959afedf8a3f83b5e97205fdfbc8
@@ -1555,25 +1588,23 @@ vendor/lib64/sensors.elliptic.so
 vendor/lib/sensors.ssc.so|ca9b375b92122fdec84db63151bb6bd119cadb42
 vendor/lib64/sensors.ssc.so|13e4c4264c5ef77339bc86640f2589186b3bb096
 
-# Soter - from jason V12.0.1.0.PCHCNXM
--app/SoterService/SoterService.apk|c6c6063f83588db6c572779624458a4d1f094213
+# Soter
+-vendor/app/SoterService/SoterService.apk
+vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
+vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
+vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
+vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
-# Soter - from jasmine
-vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|4f7e3c8a6cde9efefd8b9bf440fb1ed442e21fd3
-vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb7e8ca000e48bd28ae
-vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|9cf774301dfb59173cc2a6871ff851ea6b546f39
-vendor/lib64/vendor.qti.hardware.soter@1.0.so|5815859dc07d3181901596d06612b379e86fe6fd
-
-# Thermal - from lavender V11.0.5.0.PFGCNXM
-vendor/bin/thermal-engine|8b77c4541d74abb4d17e5b46dbfcf46ea7290283
-vendor/etc/thermal-engine-camera.conf|db9829a655ca0c3013448e6a4aee3fcce9f90ca2
-vendor/etc/thermal-engine-map.conf|7c86d130de03ee8a0ebebc2e8f2eeda0e574cdf6
-vendor/etc/thermal-engine-normal.conf|9c875e1102da2503db5bc295327c28a4b6c6452e
-vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
--vendor/lib/libthermalclient.so|c3aecc7610e8f5775a6f6af2ff7790bef74380a1
--vendor/lib64/libthermalclient.so|84072e150722cc668320f07a75cb8695ce1a79b0
-vendor/lib64/libthermalfeature.so|1c408911610e5b6a11853aff1900860f9e9a861f
-vendor/lib64/libthermalioctl.so|d7055e46d8ba5e83b213c5f38d936f3ea71003c2
+# Thermal
+vendor/bin/thermal-engine
+vendor/etc/thermal-engine-camera.conf
+vendor/etc/thermal-engine-map.conf|9e87f1d426c0fb9151f72f55c8455e92b6724c55
+vendor/etc/thermal-engine-normal.conf
+vendor/etc/thermal-engine.conf
+-vendor/lib/libthermalclient.so
+-vendor/lib64/libthermalclient.so
+vendor/lib64/libthermalfeature.so
+vendor/lib64/libthermalioctl.so
 
 # Thermal - from jasmine
 vendor/etc/thermal-engine-youtube.conf|d7f04f645be71847281ce1e4a2caa3bba153fcaa
@@ -1605,4 +1636,3 @@ vendor/lib64/liboemcrypto.so|cf493ea8b86ef13a55ca4fb675c176405afd42fb
 
 # Wifi
 vendor/bin/cnss-daemon
-
