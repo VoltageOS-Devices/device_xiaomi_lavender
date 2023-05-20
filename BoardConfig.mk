@@ -6,10 +6,10 @@
 
 DEVICE_PATH := device/xiaomi/lavender
 
+# Ignore overriding commands errors
+BUILD_BROKEN_DUP_RULES := true
 RELAX_USES_LIBRARY_CHECK := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
-
-BOARD_VENDOR := xiaomi
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := lavender
@@ -17,6 +17,7 @@ TARGET_OTA_ASSERT_DEVICE := lavender
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sdm660
 TARGET_NO_BOOTLOADER := true
+BOARD_VENDOR := xiaomi
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm660
