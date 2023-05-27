@@ -1,4 +1,5 @@
 # All blobs from lavender-user 10 QKQ1.190910.002 V12.5.3.0.QFGMIXM release-keys, unless pinned
+# SLD_sprout: m690-user 11 RKQ1.210607.001 00WW_3_710 release-keys
 
 # ADSP
 vendor/bin/adsprpcd
@@ -100,7 +101,6 @@ vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|71ad8980142e7d8d75
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|f9dcf9a19a0b601969bcd606bedb8a8419de9d81
 vendor/lib64/libbtnv.so|08fc5c0a38eca63ebe6f0cd854f6525537141d44
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|9346946b110086a6b473c8226e072e9a0cdbb87e
-vendor/lib64/vendor.qti.hardware.fm@1.0.so|073cace3aa8d0ffa025d9df67c45f8a907109339
 
 # Camera-actuators - from lavender V10.3.6.0.PFGMIXM
 vendor/lib/libactuator_lavender_imx486_ofilm_i_bu64982.so|b9c25753bc55ded0a0ee013a0b76384d6f1cf44f
@@ -1053,8 +1053,8 @@ vendor/lib64/libcdsprpc.so
 vendor/lib64/libfastrpc_utf_stub.so
 vendor/lib64/libsysmon_cdsp_skel.so
 
-# Charger
-vendor/bin/hvdcp_opti
+# Charger - from SLD_sprout
+vendor/bin/hvdcp_opti|cfee9d4b5c2a842173aefe573344b2d3366f7d17
 
 # CNE - from jasmine
 -vendor/app/CneApp/CneApp.apk|2356a0335ab8e0106832a9325f972467654fd1f0
@@ -1198,11 +1198,17 @@ vendor/lib64/libgoodixhwfingerprint.so
 vendor/lib64/libvendor.goodix.hardware.interfaces.biometrics.fingerprint@2.1.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
-# FM - from jasmine V11.0.28.0.QDIMIXM
-lib64/fm_helium.so:system_ext/lib64/fm_helium.so|bc9f6314528630c060b593cef4a8cec786b22467
-lib64/libfm-hci.so:system_ext/lib64/libfm-hci.so|589e9e290acfa18a49deba33606ed158d5e7f898
-product/lib64/vendor.qti.hardware.fm@1.0.so:system_ext/lib64/vendor.qti.hardware.fm@1.0.so|fc7ad886f82089edf36509865fadac17a7340f32
-vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|506efd87250697bdae271f86ea472785a77b84ef
+# FM - from SLD_sprout
+-system_ext/lib/vendor.qti.hardware.fm@1.0.so|af23f9986a1836a2f937320946a1267563a82e22
+-system_ext/lib64/vendor.qti.hardware.fm@1.0.so|5eaf6d5d67361ff6236c1ec4f5225c6185a904a6
+system_ext/lib/fm_helium.so|89b1d540475352172eac7265c97aba55d93c150e
+system_ext/lib/libfm-hci.so|b42ec9573f38587857ef01e7bdd88dd9bb6ae584
+system_ext/lib64/fm_helium.so|b2440e4feaae8a7f5e2269525520f9774b6962fc
+system_ext/lib64/libfm-hci.so|758c6e7cfafc964b5cd9d71806ec5455e0d78716
+vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so|b711f2b21eae6dda60c1066cc7f09f2fdbbba05a
+vendor/lib/vendor.qti.hardware.fm@1.0.so|aad3ef11a2fa41bb5a2bf25f8960c53ac3e0f8a4
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|c828f2be5415f779bbd9113ed944f981a5fa1f2c
+vendor/lib64/vendor.qti.hardware.fm@1.0.so|f6e23f902b7e15232b20af55161a24da93ffe25f
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
@@ -1334,13 +1340,14 @@ vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
 vendor/lib/libqtikeymaster4.so
 vendor/lib64/libqtikeymaster4.so
 
-# Listen - from jasmine
-vendor/lib/libadpcmdec.so|6e9be864a1380e099a2d68237e13a724f3143314
-vendor/lib/libgcs-calwrapper.so|a7ee01ad02f69c182b9f28cb1c10b105ec8d607f
-vendor/lib/libgcs-ipc.so|d2a33d059bc02c6f635c350f0c3d524a0216557d
-vendor/lib/libgcs-osal.so|dfae7d1bb15b7bd19fef7427f0a6f6df28d5d30a
-vendor/lib/libgcs.so|91e2a7e52bbc076eb3761586bcaf623160612a79
-vendor/lib/libsmwrapper.so|d28c31e4dd25de2eb7d1face701b0f6acf1b1d0e
+# Listen - from SLD_sprout
+vendor/lib/hw/sound_trigger.primary.sdm660.so|f9fc90dd0ffaff3df5873d9536bb7a2b7d60450c
+vendor/lib/libadpcmdec.so|b3ec2cc197b682aa6ae7e1da9c8f25cc1aa75750
+vendor/lib/libgcs-calwrapper.so|7bbad068766b970e3fa576f372ed36b87e6d7898
+vendor/lib/libgcs-ipc.so|dd9c0e6e25b4b1c8a80cec843a7eec990111447f
+vendor/lib/libgcs-osal.so|413c0b9b767d8aa1da477f89b162d5b13604e0cf
+vendor/lib/libgcs.so|16dd5d2893062e717921674f92338d12a6a823fc
+vendor/lib/libsmwrapper.so|0fbf611c9a597f7c70bfd2363dfc7f465d1dafd5
 
 # Media
 vendor/lib/libAlacSwDec.so
@@ -1570,7 +1577,6 @@ vendor/lib64/lib-imsvtcore.so|47d945bf976134fdb57b4f44dd73a1347f2bf421
 
 # Sensors
 vendor/bin/sensors.qti
-vendor/etc/sensors/hals.conf|2be83209bb5319b4a3c75338c24852f89ddc1df7
 vendor/etc/sensors/sensor_def_qcomdev.conf
 vendor/lib/hw/activity_recognition.sdm660.so
 vendor/lib/libsensor1.so
@@ -1579,6 +1585,10 @@ vendor/lib64/hw/activity_recognition.sdm660.so
 vendor/lib64/libsensor1.so
 vendor/lib64/libsensor_reg.so
 vendor/lib64/sensors.elliptic.so
+
+#Sensors-config - from lavender
+vendor/etc/sensors/hals.conf|2be83209bb5319b4a3c75338c24852f89ddc1df7
+vendor/etc/thermal-engine-map.conf|9e87f1d426c0fb9151f72f55c8455e92b6724c55
 
 # Sensors - from m690-user 11 RKQ1.210607.001 00WW_3_690 release-keys
 vendor/lib/sensors.ssc.so|ca9b375b92122fdec84db63151bb6bd119cadb42
@@ -1596,7 +1606,6 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so
 -vendor/lib64/libthermalclient.so
 vendor/bin/thermal-engine
 vendor/etc/thermal-engine-camera.conf
-vendor/etc/thermal-engine-map.conf|9e87f1d426c0fb9151f72f55c8455e92b6724c55
 vendor/etc/thermal-engine-normal.conf
 vendor/etc/thermal-engine.conf
 vendor/lib64/libthermalfeature.so
@@ -1605,11 +1614,11 @@ vendor/lib64/libthermalioctl.so
 # Thermal - from jasmine
 vendor/etc/thermal-engine-youtube.conf|d7f04f645be71847281ce1e4a2caa3bba153fcaa
 
-# Time services - from jasmine
--vendor/app/TimeService/TimeService.apk|27f9b81621c446baa8c37581d9bfbca2fd67b496
-vendor/bin/time_daemon|d647fa02dfb28b6cb981c4e77daee75a67406351
+# Time services - from SLD_sprout
+-vendor/app/TimeService/TimeService.apk|aae6864069e8117bb8e899fe4b45c1865f76d682
+vendor/bin/time_daemon|48401d7f85c87aa3e12ce7b4a969a50cbf59c293
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
-vendor/lib64/libtime_genoff.so|c8e0bbc9c6b7b5beddba43bc4125a9eaeba7c79f
+vendor/lib64/libtime_genoff.so|8bb116ad297a5e4a94da2f10509509cb6e863a5f
 
 # TUI - from jasmine
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|a0d692fe10ef9dc4479497fa666640612f06fbb4
@@ -1630,5 +1639,5 @@ vendor/lib64/mediadrm/libwvdrmengine.so|80280a2292db04a1eb3750df6897dea96f0f62f5
 vendor/lib/liboemcrypto.so|938a2325da1c4d4210f78276f43e689b66ec5ae4
 vendor/lib64/liboemcrypto.so|cf493ea8b86ef13a55ca4fb675c176405afd42fb
 
-# Wifi
-vendor/bin/cnss-daemon
+# Wifi - from SLD_sprout
+vendor/bin/cnss-daemon|1c63b8f94ba601b76edb0ee2fa1d1880de8d0ea3
