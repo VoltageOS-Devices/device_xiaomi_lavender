@@ -102,7 +102,6 @@ PRODUCT_COPY_FILES += \
 
 # ANT+
 PRODUCT_PACKAGES += \
-    AntHalService \
     com.dsi.ant.antradio_library \
     com.dsi.ant@1.0.vendor
 
@@ -224,8 +223,6 @@ PRODUCT_PACKAGES += \
     libbatching \
     libgeofencing \
     libgnss \
-    libgnsspps \
-    libsynergy_loc_api \
     libgps.utils \
     liblocation_api \
     libsensorndkbridge \
