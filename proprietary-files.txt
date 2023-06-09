@@ -39,7 +39,7 @@ vendor/lib/rfsa/adsp/libscveT2T_skel.so
 vendor/lib/rfsa/adsp/nuance.scd
 
 # Alarm - from SLD_sprout
--product/app/PowerOffAlarm/PowerOffAlarm.apk|1700001b0a54c29c9ce114ef9829f861c5edc6e9
+product/app/PowerOffAlarm/PowerOffAlarm.apk|1700001b0a54c29c9ce114ef9829f861c5edc6e9
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|586b142f9bc4bf3098b4962682c4de1c13810f9b
 vendor/bin/power_off_alarm|b8c7ddc1bed336753c3746925fd0f4a9925aa36c
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6ffb466e23a7fc3b05
@@ -1058,8 +1058,8 @@ vendor/lib64/libsysmon_cdsp_skel.so
 vendor/bin/hvdcp_opti|cfee9d4b5c2a842173aefe573344b2d3366f7d17
 
 # CNE - from SLD_sprout
--vendor/app/CneApp/CneApp.apk|39144b727c1897cb52edf6c725c2eed6ca83eb4f
--vendor/app/IWlanService/IWlanService.apk|74779cb40af74d7689c5e63162490506034b8550
+vendor/app/CneApp/CneApp.apk|39144b727c1897cb52edf6c725c2eed6ca83eb4f
+vendor/app/IWlanService/IWlanService.apk|74779cb40af74d7689c5e63162490506034b8550
 vendor/bin/cnd|07829b294562037b779a6e7244972d7c24e758a5
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml|578f3f8f56059bfdbef926bcc68d01c15e06951f
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml|1fb42c672a12b6660bdce3ea94e0c43719dd9de8
@@ -1146,7 +1146,7 @@ system_ext/lib64/libdpmfdmgr.so|bf3666db17e77da3a303c10579baec0bd018089f
 system_ext/lib64/libdpmframework.so|235fbb48b47baebd48dbe56f72c77d97ca12c07c
 system_ext/lib64/libdpmtcm.so|dff3d3dbacd18ed55b5758a174f5016ef9e7a896
 system_ext/lib64/vendor.qti.diaghal@1.0.so|abe51fdbdcbf3449012395cf0ade8aa8d267dbe6
--system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|b404ff23a51f505ecf2a61a1b0f4e569eedcd3c9
+system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|b404ff23a51f505ecf2a61a1b0f4e569eedcd3c9
 vendor/bin/dpmQmiMgr|3c553042d4257161adb75c0979c829b0cb050639
 vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|d9f1aa7f93b928f42499d613d20ccbc60f279097
@@ -1481,13 +1481,13 @@ vendor/lib64/libqmi_encdec.so|a18bb21e5b9b53e3dc8dc45f6e7e65e32a467607
 vendor/lib64/libqmiservices.so|52770edf3e35f5376f3d0a131636f3213c9e59fa
 
 # Radio - from SLD_sprout
--system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|692d3d439cdee075729799e571113f6f8fe3e786
+system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|692d3d439cdee075729799e571113f6f8fe3e786
 system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml|4ba0680d04581d8bd9acba3ddb8ea22f85747910
 system_ext/etc/permissions/telephonyservice.xml|b7831598d3c19c6ce4ef431d1cc44d94c3c35a8d
 system_ext/framework/qcrilhook.jar|f2888f922b8347417dfa86741feb8348795fce6f
 system_ext/framework/qti-telephony-common.jar|0db037785928aae043e9be7f49bddbefad43fbc3
--system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|26b725924d62c7fbd0ed72fe1f0786b18b2f8f36
+system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|26b725924d62c7fbd0ed72fe1f0786b18b2f8f36
 vendor/bin/hw/qcrild|77d0168fbad7db01eec8abd9df25f19c05411eb4
 vendor/bin/ATFWD-daemon|e1d493d251232dc7787e8f9fe76c027830c63855
 vendor/bin/adpl|6bbc42cea3f882498e9bae6563659dc6538340e7
@@ -1554,8 +1554,8 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so|75a58827c0b4e06e
 vendor/radio/qcril_database/qcril.db|642758fdfc1ec8d1bf7857bafb0f737c04b22325
 
 # Radio - IMS - from SLD_sprout
--system_ext/app/imssettings/imssettings.apk|516d8be0f869e1733d0287722897420c57c73be5
--system_ext/app/uceShimService/uceShimService.apk|cdffe76fca53131f68eb996005a35304b924206e
+system_ext/app/imssettings/imssettings.apk|516d8be0f869e1733d0287722897420c57c73be5
+system_ext/app/uceShimService/uceShimService.apk|cdffe76fca53131f68eb996005a35304b924206e
 system_ext/lib64/lib-imscamera.so|49ead972646b09d700556d63676673b3e8af2036
 system_ext/lib64/lib-imsvideocodec.so|47512183b3330ad566d241149c4e16f33122dab1
 system_ext/lib64/lib-imsvt.so|4f96cc5f27551d0b6cb11ad6447d9ce8829dde47
@@ -1564,7 +1564,7 @@ system_ext/lib64/lib-imsvtutils.so|b4a39a247f767723ce67182ee92f526c029a019d
 system_ext/lib64/libimscamera_jni.so|486abdb09a82ccee5e49307a17ba3dc9efdf5e9d
 system_ext/lib64/libimsmedia_jni.so|f8be2575f8eaef8bb89a4bc049381ebffe857831
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|4cf9e97f526c6278c5e2136e00d1fb800fb941aa
--system_ext/priv-app/ims/ims.apk|bed959752f39386d6a7045f8cf96226a14e31dfd
+system_ext/priv-app/ims/ims.apk|bed959752f39386d6a7045f8cf96226a14e31dfd
 vendor/bin/ims_rtp_daemon|ed5c13c758080d79a9371061d53127d406475614
 vendor/bin/imsdatadaemon|701f9a2eaa2674bcaa7e69817bdcb656e99fcac9
 vendor/bin/imsqmidaemon|5fde955e71392479b2f3e6aaf6005fa54b618678
@@ -1656,7 +1656,7 @@ vendor/lib64/libthermalioctl.so
 vendor/etc/thermal-engine-youtube.conf|d7f04f645be71847281ce1e4a2caa3bba153fcaa
 
 # Time services - from SLD_sprout
--vendor/app/TimeService/TimeService.apk|aae6864069e8117bb8e899fe4b45c1865f76d682
+vendor/app/TimeService/TimeService.apk|aae6864069e8117bb8e899fe4b45c1865f76d682
 vendor/bin/time_daemon|48401d7f85c87aa3e12ce7b4a969a50cbf59c293
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|8bb116ad297a5e4a94da2f10509509cb6e863a5f
