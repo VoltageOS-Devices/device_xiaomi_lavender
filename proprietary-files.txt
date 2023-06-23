@@ -1054,8 +1054,8 @@ vendor/lib64/libcdsprpc.so
 vendor/lib64/libfastrpc_utf_stub.so
 vendor/lib64/libsysmon_cdsp_skel.so
 
-# Charger - from SLD_sprout
-vendor/bin/hvdcp_opti|cfee9d4b5c2a842173aefe573344b2d3366f7d17
+# Charger
+vendor/bin/hvdcp_opti
 
 # CNE - from SLD_sprout
 vendor/app/CneApp/CneApp.apk|39144b727c1897cb52edf6c725c2eed6ca83eb4f
