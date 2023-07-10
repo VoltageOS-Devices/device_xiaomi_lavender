@@ -1629,7 +1629,6 @@ vendor/lib64/sensors.elliptic.so
 
 #Sensors-config - from lavender
 vendor/etc/sensors/hals.conf|2be83209bb5319b4a3c75338c24852f89ddc1df7
-vendor/etc/thermal-engine-map.conf|9e87f1d426c0fb9151f72f55c8455e92b6724c55
 
 # Sensors - from m690-user 11 RKQ1.210607.001 00WW_3_690 release-keys
 vendor/lib/sensors.ssc.so|ca9b375b92122fdec84db63151bb6bd119cadb42
@@ -1642,15 +1641,16 @@ vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|7d4c9a9e2a91c0a675b5f30108fb288b98d6ddc0
 vendor/lib64/vendor.qti.hardware.soter@1.0.so|5496f7816036ef71aec0116864032f8a6078aee7
 
-# Thermal
-vendor/bin/thermal-engine
-vendor/etc/thermal-engine-camera.conf
-vendor/etc/thermal-engine-normal.conf
-vendor/etc/thermal-engine.conf
--vendor/lib/libthermalclient.so
--vendor/lib64/libthermalclient.so
-vendor/lib64/libthermalfeature.so
-vendor/lib64/libthermalioctl.so
+# Thermal - from lavender V11.0.5.0.PFGCNXM
+vendor/bin/thermal-engine|8b77c4541d74abb4d17e5b46dbfcf46ea7290283
+vendor/etc/thermal-engine-camera.conf|db9829a655ca0c3013448e6a4aee3fcce9f90ca2
+vendor/etc/thermal-engine-map.conf|7c86d130de03ee8a0ebebc2e8f2eeda0e574cdf6
+vendor/etc/thermal-engine-normal.conf|9c875e1102da2503db5bc295327c28a4b6c6452e
+vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
+-vendor/lib/libthermalclient.so|c3aecc7610e8f5775a6f6af2ff7790bef74380a1
+-vendor/lib64/libthermalclient.so|84072e150722cc668320f07a75cb8695ce1a79b0
+vendor/lib64/libthermalfeature.so|1c408911610e5b6a11853aff1900860f9e9a861f
+vendor/lib64/libthermalioctl.so|d7055e46d8ba5e83b213c5f38d936f3ea71003c2
 
 # Thermal - from jasmine
 vendor/etc/thermal-engine-youtube.conf|d7f04f645be71847281ce1e4a2caa3bba153fcaa
